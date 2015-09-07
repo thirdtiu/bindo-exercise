@@ -1,0 +1,14 @@
+{
+  "name": "bindo",
+  "version": "1.0.0",
+  "description": "Assignment from Bindo",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Avelino Tiu III",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
