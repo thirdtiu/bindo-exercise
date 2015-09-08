@@ -59,6 +59,17 @@ body{
             padding:0;
         }
     }
+    .nav{
+        .btn-primary{
+            color: #fff;
+        }
+        .btn{
+            font-size: 14px;
+            padding:8px 15px;
+            text-transform: uppercase;
+            margin-right: 10px;
+        }
+    }
 }
 
 .dropdown-language{
@@ -104,6 +115,12 @@ body{
         font-family: Lato-Bold;
         font-size: 12px;
         color: #FFFFFF;
+        &:hover,
+        &:active,
+        &:focus{
+            text-decoration: none;
+            opacity: .8;
+        }
     }
 }
 
