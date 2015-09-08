@@ -59,9 +59,24 @@ body{
 .gray-block{
     background: #F6F7F9;
     min-height: 496px;
-    .pull-up-section{
-        // margin-top:-150px;
+    .pull-up-section{        
         position: relative;
-        top:-150px;
+        .pull-up{
+            position:absolute;
+            top:-150px;
+        }
     }
+}
+.product-feature-block{
+    font-size: 18px;
+}
+
+.business-types{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.footer{
+    background: #60707C;
 }
