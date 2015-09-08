@@ -7978,6 +7978,28 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.ico {
+  display: inline-block;
+  vertical-align: middle;
+  text-indent: -9999px;
+  outline: none;
+  background: url(../img/sprite.png) no-repeat;
+}
+
+.ico.ico-us {
+  width: 21px;
+  height: 15px;
+  background-position: -149px 0;
+  margin-right: 10px;
+}
+
+.ico.ico-hk {
+  width: 21px;
+  height: 15px;
+  background-position: -128px 0;
+  margin-right: 10px;
+}
+
 .navbar {
   opacity: 0.9;
   background: rgba(30, 30, 30, 0.7);
@@ -7989,6 +8011,36 @@ body {
 
 .navbar .zero-menu-items {
   float: right;
+}
+
+.dropdown-language .btn {
+  font-size: 12px;
+  background: none;
+  color: #666666;
+}
+
+.dropdown-language .btn .glyphicon {
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+.dropdown-language .dropdown-menu {
+  font-size: 12px;
+  background: #333333;
+  padding: 0;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+}
+
+.dropdown-language .dropdown-menu > li > a {
+  padding: 5px 12px;
+  color: #666666;
+}
+
+.dropdown-language .dropdown-menu > li > a:hover,
+.dropdown-language .dropdown-menu > li > a:focus {
+  background: #1a1a1a;
 }
 
 .zero-menu-items ul {

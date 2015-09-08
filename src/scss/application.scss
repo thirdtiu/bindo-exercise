@@ -3,6 +3,26 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+.ico{
+    display: inline-block;
+    vertical-align: middle;
+    text-indent: -9999px;
+    outline: none;
+    background:url(../img/sprite.png) no-repeat;
+    &.ico-us{
+        width: 21px;
+        height: 15px;
+        background-position: -149px 0;
+        margin-right: 10px;
+    }
+    &.ico-hk{
+        width: 21px;
+        height: 15px;
+        background-position: -128px 0;
+        margin-right: 10px;
+    }
+}
+
 .navbar{
     opacity: 0.9;
     background: rgba(30,30,30,0.70);
@@ -12,6 +32,34 @@ body{
     }
     .zero-menu-items{
         float: right;
+    }
+}
+
+.dropdown-language{
+    .btn{
+        font-size: 12px;
+        background:none;
+        color: lighten($gray-base, 40%);
+        .glyphicon{
+            margin-left: 5px;
+            font-size: 10px;
+        }
+    }
+    .dropdown-menu{
+        font-size: 12px;
+        background: lighten(#000000, 20%);
+        padding:0;
+        box-shadow:none;
+        border:none;
+        border-radius:0;
+        & > li > a{
+            padding:5px 12px;
+            color: lighten($gray-base, 40%);
+            &:hover,
+            &:focus{
+                background: lighten(#000000, 10%);
+            }
+        }
     }
 }
 
