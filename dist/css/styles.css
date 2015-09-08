@@ -8001,8 +8001,13 @@ body {
 }
 
 .navbar {
-  opacity: 0.9;
-  background: rgba(30, 30, 30, 0.7);
+  opacity: 1;
+  background: rgba(30, 30, 30, 0.9);
+}
+
+.navbar .container {
+  position: relative;
+  min-height: 110px;
 }
 
 .navbar .dropdown-language {
@@ -8013,6 +8018,7 @@ body {
   float: right;
   font-size: 12px;
   padding: 8px 0;
+  margin-bottom: 20px;
 }
 
 .navbar .zero-menu-items li {
@@ -8021,6 +8027,21 @@ body {
 
 .navbar .zero-menu-items li:last-child {
   padding-right: 0;
+}
+
+.navbar .navbar-header {
+  float: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.navbar .navbar-header .navbar-brand {
+  margin: 0;
+  float: none;
+  display: block;
+  height: auto;
+  padding: 0;
 }
 
 .dropdown-language .btn {

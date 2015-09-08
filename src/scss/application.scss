@@ -24,9 +24,13 @@ body{
 }
 
 .navbar{
-    opacity: 0.9;
-    background: rgba(30,30,30,0.70);
-    
+    opacity: 1;
+    background: rgba(30,30,30,0.90);
+
+    .container{
+        position:relative;
+        min-height: 110px;
+    }
     .dropdown-language{
         float: left;
     }
@@ -34,11 +38,25 @@ body{
         float: right;
         font-size: 12px;
         padding:8px 0;
+        margin-bottom: 20px;
         li{
             padding:0 15px;
             &:last-child{
                 padding-right:0;
             }
+        }
+    }
+    .navbar-header{
+        float: none;
+        position:absolute;
+        left: 0;
+        bottom:0;
+        .navbar-brand{
+            margin:0;
+            float:none;
+            display: block;
+            height: auto;
+            padding:0;
         }
     }
 }
