@@ -8011,10 +8011,21 @@ body {
 
 .navbar .zero-menu-items {
   float: right;
+  font-size: 12px;
+  padding: 8px 0;
+}
+
+.navbar .zero-menu-items li {
+  padding: 0 15px;
+}
+
+.navbar .zero-menu-items li:last-child {
+  padding-right: 0;
 }
 
 .dropdown-language .btn {
   font-size: 12px;
+  padding-left: 0;
   background: none;
   color: #666666;
 }

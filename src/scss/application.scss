@@ -32,12 +32,21 @@ body{
     }
     .zero-menu-items{
         float: right;
+        font-size: 12px;
+        padding:8px 0;
+        li{
+            padding:0 15px;
+            &:last-child{
+                padding-right:0;
+            }
+        }
     }
 }
 
 .dropdown-language{
     .btn{
         font-size: 12px;
+        padding-left:0;
         background:none;
         color: lighten($gray-base, 40%);
         .glyphicon{
