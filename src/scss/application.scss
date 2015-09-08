@@ -60,6 +60,7 @@ body{
         }
     }
     .nav{
+        font-size: 14px;
         .btn-primary{
             color: #fff;
         }
@@ -68,6 +69,20 @@ body{
             padding:8px 15px;
             text-transform: uppercase;
             margin-right: 10px;
+            position:relative;
+            bottom:-4px;
+            border-width:2px;
+        }
+        li:last-child .btn{
+            margin-right: 0;
+        }
+        li > a{
+            color: #fff;
+            text-transform:uppercase;
+            &:hover,
+            &:active{
+                opacity: .8;
+            }
         }
     }
 }

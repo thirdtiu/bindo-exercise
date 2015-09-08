@@ -3826,7 +3826,6 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary.btn-outline {
   color: #49BBEB !important;
   background-color: transparent;
-  border-width: 2px;
 }
 
 .btn-success {
@@ -8050,6 +8049,10 @@ body {
   padding: 0;
 }
 
+.navbar .nav {
+  font-size: 14px;
+}
+
 .navbar .nav .btn-primary {
   color: #fff;
 }
@@ -8059,6 +8062,23 @@ body {
   padding: 8px 15px;
   text-transform: uppercase;
   margin-right: 10px;
+  position: relative;
+  bottom: -4px;
+  border-width: 2px;
+}
+
+.navbar .nav li:last-child .btn {
+  margin-right: 0;
+}
+
+.navbar .nav li > a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar .nav li > a:hover,
+.navbar .nav li > a:active {
+  opacity: .8;
 }
 
 .dropdown-language .btn {
