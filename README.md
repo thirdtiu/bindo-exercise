@@ -2,6 +2,9 @@
 Bindo exercise
 
 ## Installation
+This project uses Grunt for automation. For more info, visit: [http://gruntjs.com](http://gruntjs.com)
+
+
 Install project dependencies
 
 ```
