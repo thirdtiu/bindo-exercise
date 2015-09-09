@@ -37,6 +37,10 @@ a:active{
     -o-background-size: cover;
     background-size: cover;
 }
+.black{
+    color: #000 !important;
+}
+
 .navbar{
     opacity: 1;
     background: rgba(30,30,30,0.90);
@@ -278,9 +282,6 @@ section.block{
 }
 .block.quote-block{
     font-size: 18px;
-    h1{
-        color: #000;
-    }
     p{
         margin-bottom: 50px;
     }

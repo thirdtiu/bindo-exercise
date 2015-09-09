@@ -8020,6 +8020,10 @@ a:active {
   background-size: cover;
 }
 
+.black {
+  color: #000 !important;
+}
+
 .navbar {
   opacity: 1;
   background: rgba(30, 30, 30, 0.9);
@@ -8290,10 +8294,6 @@ section.block p {
 
 .block.quote-block {
   font-size: 18px;
-}
-
-.block.quote-block h1 {
-  color: #000;
 }
 
 .block.quote-block p {
