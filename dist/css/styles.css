@@ -8183,6 +8183,7 @@ a:active {
 
 section.block {
   padding: 60px 0;
+  line-height: 1.7;
 }
 
 section.block h1 {
@@ -8268,6 +8269,10 @@ section.block h2 {
   color: #666666;
   padding-top: 120px;
   line-height: 27px;
+}
+
+.inventory-block .right-content {
+  padding-top: 60px;
 }
 
 .footer {
