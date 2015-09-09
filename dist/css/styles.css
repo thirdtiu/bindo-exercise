@@ -8172,8 +8172,16 @@ body {
   background: #49BBEB;
 }
 
+section.block h1 {
+  font-size: 36px;
+  color: #333333;
+  line-height: 48px;
+  margin: 0 0 30px;
+}
+
 .goal-block {
   padding: 60px 0 228px;
+  font-size: 18px;
 }
 
 .gray-block {
