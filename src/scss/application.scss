@@ -186,6 +186,12 @@ section.block{
         line-height: 48px;
         margin:0 0 30px;
     }
+    h2{
+        font-size: 30px;
+        color: #333333;
+        line-height: 36px;
+        margin:0 0 20px 0;
+    }
 }
 .goal-block{
     padding:60px 0 228px;
@@ -235,6 +241,22 @@ section.block{
     list-style-type: none;
     margin:0;
     padding:0;
+}
+.crm-block{
+    min-height: 480px;
+    background-image: url(../img/gift-cards-header-bg.jpg);
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    .left-content{
+        color: lighten(#333333, 20%);
+        padding-top:180px;
+        line-height: 27px;
+    }
+
 }
 
 .footer{
