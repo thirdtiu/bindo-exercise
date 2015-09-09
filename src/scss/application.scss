@@ -248,19 +248,25 @@ section.block{
     padding:0;
 }
 .crm-block{
-    min-height: 480px;
+    min-height: 360px;
     background-image: url(../img/gift-cards-header-bg.jpg);
 
     .left-content{
         color: lighten(#333333, 20%);
         padding-top:120px;
-        line-height: 27px;
     }
 
 }
 .analytics-block{
-    min-height: 490px;
+    min-height: 370px;
     background-image: url(../img/dashboard.jpg);
+    color:#fff;
+    h2{
+        color: #fff !important;
+    }
+    .left-content{
+        padding-top:40px;
+    }
 }
 .inventory-block{
     .right-content{

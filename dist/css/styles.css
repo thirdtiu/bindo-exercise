@@ -8258,19 +8258,27 @@ section.block h2 {
 }
 
 .crm-block {
-  min-height: 480px;
+  min-height: 360px;
   background-image: url(../img/gift-cards-header-bg.jpg);
 }
 
 .crm-block .left-content {
   color: #666666;
   padding-top: 120px;
-  line-height: 27px;
 }
 
 .analytics-block {
-  min-height: 490px;
+  min-height: 370px;
   background-image: url(../img/dashboard.jpg);
+  color: #fff;
+}
+
+.analytics-block h2 {
+  color: #fff !important;
+}
+
+.analytics-block .left-content {
+  padding-top: 40px;
 }
 
 .inventory-block .right-content {
