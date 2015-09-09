@@ -3,6 +3,14 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
+a:hover,
+a:active{
+    text-decoration: none;
+}
+
 .ico{
     display: inline-block;
     vertical-align: middle;
@@ -190,12 +198,37 @@ section.block{
         position: relative;
         .pull-up{
             position:absolute;
-            top:-150px;
+            top:-320px;
         }
     }
 }
 .product-feature-block{
     font-size: 18px;
+    padding-top:185px;
+    .video{
+        position:relative;
+    }
+    .btn-watch{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 20px;
+    }
+    .btn-play{
+        width: 43px;
+        height: 43px;
+        background:#000;
+        color: #fff;
+        display: inline-block;
+        line-height: 43px;
+        text-align: center;
+        border-radius:43px;
+        .glyphicon{
+            margin-left: 4px;
+        }
+    }
 }
 
 .business-types{
