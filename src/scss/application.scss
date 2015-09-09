@@ -308,6 +308,53 @@ section.block{
     }
 }
 
+.business-types{
+    li{
+       margin-bottom: 20px; 
+       & > a{
+        height: 140px;
+        display:block;
+        text-align: center;
+        background: #73D1BE;
+        width: 100%;
+        position:relative;
+        line-height: 1.3;
+        color:#fff;
+            span{
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%, -50%);
+                width: 90%;
+            }
+        }
+        &:nth-child(2){
+            > a{
+                background: #73D1CE;
+            }
+        }
+        &:nth-child(3){
+            > a{
+                background: #73C9D1;
+            }
+        }
+        &:nth-child(4){
+            > a{
+                background: #5FBEDA;
+            }
+        }
+        &:nth-child(5){
+            > a{
+                background: #56BCE7;
+            }
+        }
+        &:last-child{
+            > a{
+                background: #44B1DF;
+            }
+        }
+    }
+}
 .footer{
     background: #60707C;
 }
