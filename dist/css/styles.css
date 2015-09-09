@@ -8014,6 +8014,13 @@ a:active {
   margin-right: 10px;
 }
 
+.cover-bg {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .navbar {
   opacity: 1;
   background: rgba(30, 30, 30, 0.9);
@@ -8148,11 +8155,6 @@ a:active {
 .head-banner {
   height: 590px;
   background-image: url(../img/hero.jpg);
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .head-banner .container {
@@ -8258,17 +8260,17 @@ section.block h2 {
 .crm-block {
   min-height: 480px;
   background-image: url(../img/gift-cards-header-bg.jpg);
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .crm-block .left-content {
   color: #666666;
   padding-top: 120px;
   line-height: 27px;
+}
+
+.analytics-block {
+  min-height: 490px;
+  background-image: url(../img/dashboard.jpg);
 }
 
 .inventory-block .right-content {
