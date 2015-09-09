@@ -157,6 +157,18 @@ body{
         color: #FFFFFF;
         line-height: 60px;
         text-shadow: 0px 2px 4px rgba(0,0,0,0.40);
+        margin:0 0 30px 0;
+    }
+    .btn{
+        padding:16px 60px;
+        font-size: 18px;
+        background-image: linear-gradient(-180deg, #42C0E9 0%, #2CA2DE 100%);
+        box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+        border-radius: 6px;
+        &:hover,
+        &:active{
+            background:$brand-primary;
+        }
     }
 }
 
