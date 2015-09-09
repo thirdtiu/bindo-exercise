@@ -180,6 +180,7 @@ a:active{
     }
 }
 section.block{
+    padding: 60px 0;
     h1{
         font-size: 36px;
         color: #333333;
@@ -193,22 +194,24 @@ section.block{
         margin:0 0 20px 0;
     }
 }
-.goal-block{
+.block.goal-block{
     padding:60px 0 228px;
     font-size: 18px;
 }
-.gray-block{
+.block.gray-block{
     background: #F6F7F9;
     min-height: 496px;
     .pull-up-section{        
         position: relative;
+        margin-top:-320px;
+        margin-bottom: 40px;
         .pull-up{
-            position:absolute;
-            top:-320px;
+            // position:absolute;
+            // top:-320px;
         }
     }
 }
-.product-feature-block{
+.block.product-feature-block{
     font-size: 18px;
     padding-top:185px;
     .video{

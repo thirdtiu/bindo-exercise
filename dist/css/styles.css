@@ -8181,6 +8181,10 @@ a:active {
   background: #49BBEB;
 }
 
+section.block {
+  padding: 60px 0;
+}
+
 section.block h1 {
   font-size: 36px;
   color: #333333;
@@ -8195,35 +8199,32 @@ section.block h2 {
   margin: 0 0 20px 0;
 }
 
-.goal-block {
+.block.goal-block {
   padding: 60px 0 228px;
   font-size: 18px;
 }
 
-.gray-block {
+.block.gray-block {
   background: #F6F7F9;
   min-height: 496px;
 }
 
-.gray-block .pull-up-section {
+.block.gray-block .pull-up-section {
   position: relative;
+  margin-top: -320px;
+  margin-bottom: 40px;
 }
 
-.gray-block .pull-up-section .pull-up {
-  position: absolute;
-  top: -320px;
-}
-
-.product-feature-block {
+.block.product-feature-block {
   font-size: 18px;
   padding-top: 185px;
 }
 
-.product-feature-block .video {
+.block.product-feature-block .video {
   position: relative;
 }
 
-.product-feature-block .btn-watch {
+.block.product-feature-block .btn-watch {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -8232,7 +8233,7 @@ section.block h2 {
   font-size: 20px;
 }
 
-.product-feature-block .btn-play {
+.block.product-feature-block .btn-play {
   width: 43px;
   height: 43px;
   background: #000;
@@ -8243,7 +8244,7 @@ section.block h2 {
   border-radius: 43px;
 }
 
-.product-feature-block .btn-play .glyphicon {
+.block.product-feature-block .btn-play .glyphicon {
   margin-left: 4px;
 }
 
