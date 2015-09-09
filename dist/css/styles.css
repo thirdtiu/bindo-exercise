@@ -3027,7 +3027,7 @@ input[type="checkbox"]:focus {
 
 output {
   display: block;
-  padding-top: 7px;
+  padding-top: 9px;
   font-size: 16px;
   line-height: 1.428571429;
   color: #555555;
@@ -3036,15 +3036,14 @@ output {
 .form-control {
   display: block;
   width: 100%;
-  height: 36px;
-  padding: 6px 12px;
+  height: 40px;
+  padding: 8px 12px;
   font-size: 16px;
   line-height: 1.428571429;
   color: #555555;
   background-color: #fff;
   background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 2px solid #ccc;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
@@ -3060,16 +3059,16 @@ output {
 }
 
 .form-control::-moz-placeholder {
-  color: #999;
+  color: #999999;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #999;
+  color: #999999;
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #999;
+  color: #999999;
 }
 
 .form-control[disabled],
@@ -3097,7 +3096,7 @@ input[type="search"] {
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
   input[type="month"].form-control {
-    line-height: 36px;
+    line-height: 40px;
   }
   input[type="date"].input-sm,
   .input-group-sm > input[type="date"].form-control,
@@ -3221,8 +3220,8 @@ fieldset[disabled] .checkbox label {
 }
 
 .form-control-static {
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 9px;
+  padding-bottom: 9px;
   margin-bottom: 0;
   min-height: 38px;
 }
@@ -3349,7 +3348,7 @@ select[multiple].input-lg, .input-group-lg > select[multiple].form-control,
 }
 
 .has-feedback .form-control {
-  padding-right: 45px;
+  padding-right: 50px;
 }
 
 .form-control-feedback {
@@ -3358,9 +3357,9 @@ select[multiple].input-lg, .input-group-lg > select[multiple].form-control,
   right: 0;
   z-index: 2;
   display: block;
-  width: 36px;
-  height: 36px;
-  line-height: 36px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
   text-align: center;
   pointer-events: none;
 }
@@ -3564,12 +3563,12 @@ select[multiple].input-lg, .input-group-lg > select[multiple].form-control,
 .form-horizontal .checkbox-inline {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 7px;
+  padding-top: 9px;
 }
 
 .form-horizontal .radio,
 .form-horizontal .checkbox {
-  min-height: 29px;
+  min-height: 31px;
 }
 
 .form-horizontal .form-group {
@@ -3591,7 +3590,7 @@ select[multiple].input-lg, .input-group-lg > select[multiple].form-control,
   .form-horizontal .control-label {
     text-align: right;
     margin-bottom: 0;
-    padding-top: 7px;
+    padding-top: 9px;
   }
 }
 
@@ -3624,7 +3623,7 @@ select[multiple].input-lg, .input-group-lg > select[multiple].form-control,
   background-image: none;
   border: 1px solid transparent;
   white-space: nowrap;
-  padding: 6px 12px;
+  padding: 8px 12px;
   font-size: 16px;
   line-height: 1.428571429;
   border-radius: 4px;
@@ -4666,7 +4665,7 @@ tbody.collapse.in {
 }
 
 .input-group-addon {
-  padding: 6px 12px;
+  padding: 8px 12px;
   font-size: 16px;
   font-weight: normal;
   line-height: 1;
@@ -5212,8 +5211,8 @@ tbody.collapse.in {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 @media (min-width: 768px) {
@@ -5304,8 +5303,8 @@ tbody.collapse.in {
 }
 
 .navbar-btn {
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn {
@@ -5617,7 +5616,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > span {
   position: relative;
   float: left;
-  padding: 6px 12px;
+  padding: 8px 12px;
   line-height: 1.428571429;
   text-decoration: none;
   color: #49BBEB;
@@ -8202,6 +8201,10 @@ section.block h2 {
   margin: 0 0 20px 0;
 }
 
+section.block p {
+  margin: 0 0 30px 0;
+}
+
 .block.goal-block {
   padding: 60px 0 228px;
   font-size: 18px;
@@ -8283,6 +8286,45 @@ section.block h2 {
 
 .inventory-block .right-content {
   padding-top: 60px;
+}
+
+.block.quote-block {
+  font-size: 18px;
+}
+
+.block.quote-block h1 {
+  color: #000;
+}
+
+.block.quote-block p {
+  margin-bottom: 50px;
+}
+
+.block.quote-block form {
+  margin-bottom: 30px;
+}
+
+.block.quote-block .form-group {
+  margin-bottom: 10px;
+}
+
+.block.quote-block .form-control {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.block.quote-block button[type="submit"] {
+  font-size: 18px;
+  padding: 17px 16px;
+  margin-top: 20px;
+}
+
+.block.quote-block .hotline {
+  color: #999999;
+}
+
+.block.quote-block .hotline .glyphicon {
+  font-size: 20px;
+  margin-right: 5px;
 }
 
 .footer {

@@ -195,6 +195,9 @@ section.block{
         line-height: 36px;
         margin:0 0 20px 0;
     }
+    p{
+        margin: 0 0 30px 0;
+    }
 }
 .block.goal-block{
     padding:60px 0 228px;
@@ -271,6 +274,36 @@ section.block{
 .inventory-block{
     .right-content{
         padding-top:60px;
+    }
+}
+.block.quote-block{
+    font-size: 18px;
+    h1{
+        color: #000;
+    }
+    p{
+        margin-bottom: 50px;
+    }
+    form{
+        margin-bottom: 30px;
+    }
+    .form-group{
+        margin-bottom: 10px;
+    }
+    .form-control{
+        border-color: rgba(0,0,0,.2);
+    }
+    button[type="submit"]{
+        font-size: 18px;
+        padding: 17px 16px;
+        margin-top: 20px;
+    }
+    .hotline{
+        color: lighten(#000000, 60%);
+        .glyphicon{
+            font-size: 20px;
+            margin-right: 5px;
+        }
     }
 }
 
