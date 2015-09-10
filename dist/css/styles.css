@@ -8063,25 +8063,37 @@ a:active {
 }
 
 .navbar .zero-menu-items {
-  float: right;
+  clear: both;
   font-size: 12px;
   padding: 8px 0;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .navbar .zero-menu-items {
+    float: right;
+    clear: none;
+  }
 }
 
 .navbar .zero-menu-items li {
   padding: 0 15px;
 }
 
-.navbar .zero-menu-items li:last-child {
-  padding-right: 0;
+@media (min-width: 768px) {
+  .navbar .zero-menu-items li:last-child {
+    padding-right: 0;
+  }
 }
 
-.navbar .navbar-header {
-  float: none;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+@media (min-width: 992px) {
+  .navbar .navbar-header {
+    float: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
 }
 
 .navbar .navbar-header .navbar-brand {

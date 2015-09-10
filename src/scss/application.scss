@@ -73,22 +73,31 @@ a:active{
         float: left;
     }
     .zero-menu-items{
-        float: right;
+        clear:both;
+        @media (min-width: $screen-sm-min){
+            float: right;
+            clear:none;
+        }
         font-size: 12px;
         padding:8px 0;
         margin-bottom: 20px;
+        text-align: center;
         li{
             padding:0 15px;
             &:last-child{
-                padding-right:0;
+                @media (min-width: $screen-sm-min){
+                    padding-right:0;
+                }
             }
         }
     }
     .navbar-header{
-        float: none;
-        position:absolute;
-        left: 0;
-        bottom:0;
+        @media (min-width: $screen-md-min) {
+            float: none;
+            position:absolute;
+            left: 0;
+            bottom:0;
+        }
         .navbar-brand{
             margin:0;
             float:none;
