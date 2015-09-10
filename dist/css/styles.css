@@ -8097,7 +8097,7 @@ a:active {
 }
 
 .navbar .navbar-header .navbar-brand {
-  margin: 0;
+  margin: 0 0 0 10px;
   float: none;
   display: block;
   height: auto;
@@ -8116,14 +8116,22 @@ a:active {
   font-size: 14px;
   padding: 8px 15px;
   text-transform: uppercase;
-  margin-right: 10px;
   position: relative;
   bottom: -4px;
   border-width: 2px;
+  margin: 0 10px 10px;
 }
 
-.navbar .nav li:last-child .btn {
-  margin-right: 0;
+@media (min-width: 768px) {
+  .navbar .nav .btn {
+    margin: 0 10px 0 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar .nav li:last-child .btn {
+    margin-right: 0;
+  }
 }
 
 .navbar .nav li > a {
@@ -8267,6 +8275,7 @@ section.block p {
 
 .block.product-feature-block .video {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .block.product-feature-block .btn-watch {
@@ -8297,6 +8306,10 @@ section.block p {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.business-types span {
+  word-break: break-all;
 }
 
 .crm-block {
@@ -8438,6 +8451,12 @@ section.block p {
 
 .footer .social-links a {
   opacity: 1;
+}
+
+@media (min-width: 992px) {
+  .footer .right-section {
+    text-align: right;
+  }
 }
 
 .footer .copyright-section {
