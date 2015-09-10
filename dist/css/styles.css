@@ -8429,6 +8429,11 @@ section.block p {
   opacity: 1;
 }
 
+.footer .copyright-section {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 30px 0 0;
+}
+
 .footer a,
 .footer .copyright {
   opacity: 0.59;
